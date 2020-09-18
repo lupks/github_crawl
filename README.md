@@ -1,7 +1,8 @@
 # github_crawl
-Python script to crawl through a repo looking for Python script
+Script to crawl through Github by username or repo to mine for .py files in creating NLP datasets.
 
 ## Installation
+
 
 ## Usage
 
