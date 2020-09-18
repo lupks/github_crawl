@@ -1,7 +1,7 @@
 # TODO: Add the ability to cycle through every directory looking for .py files
+import sys
 import requests
 from bs4 import BeautifulSoup
-import re
 
 
 def repo_crawl(input_url, output_dir):
@@ -58,4 +58,5 @@ def repo_crawl(input_url, output_dir):
 
 
 if __name__ == "__main__":
-    repo_crawl(sys.argv[0], sys.argv[1])
+    repo_crawl(sys.argv[1], sys.argv[2])
+
